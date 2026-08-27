@@ -1,0 +1,13 @@
+- Digital Twin(Document QA System) 
+    -- Added Evaluator-optimizer pattern / Guardrails
+    -- Added terminal UI(TUI), with tools to manage checklist
+- Multi-Agent Sales Team(Agent Orchestration)
+    -- automated sales outreach 
+    -- sales development reps: can draft emails and send 
+    -- Evaluations:
+        - how many sent emails are opened and interacted with
+        - how many deals are closed through this 
+        - revenue growth percent
+
+
+
