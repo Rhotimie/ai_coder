@@ -1,2 +1,22 @@
-route loops with claude code 
+ralph loops with claude code 
     - zero shot
+
+CODING AGENTS INTERFACES
+    - CLI 
+    - IDE 
+    - PLUGINS 
+
+CODING AGENTS MEMORY HACK: 
+    - claude code: CLAUDE.md
+    - codex/cursor/copilot: AGENTS.md
+    - Antigravity: GEMINI.md 
+
+    - describe special thing about the project we are working on, they are shoved in the context every time
+    - compaction is the process of summarizing the conversation history to free up space in the context
+
+context window:
+    - lesser context, better result
+
+information in AGENTS.md in sub directories take precedence over AGENTS.md in parent directory
+
+
