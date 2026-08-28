@@ -28,6 +28,7 @@ Evolution of Workflows
     - SDD; Trust but verify
     ========================================
     - YOLO
+        - use top frontier models for this, for great results
     - Ralph Loops
     - Multi-agent swarms, orchestrate
 

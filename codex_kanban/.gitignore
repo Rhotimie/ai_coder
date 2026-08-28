@@ -1,0 +1,9 @@
+frontend/node_modules
+frontend/.next
+frontend/.playwright
+frontend/playwright-report
+frontend/test-results
+frontend/coverage
+frontend/.turbo
+frontend/.DS_Store
+
