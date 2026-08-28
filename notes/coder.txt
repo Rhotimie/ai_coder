@@ -18,5 +18,15 @@ context window:
     - lesser context, better result
 
 information in AGENTS.md in sub directories take precedence over AGENTS.md in parent directory
+    - More skills
+    - More loops
+    - More agents
 
-
+Evolution of Workflows
+    - Micro-manage, Approve, Frequent resets
+    - Plan, Execute, Review,Test
+    - SDD; Trust but verify
+    ========================================
+    - YOLO
+    - Ralph Loops
+    - Multi-agent swarms, orchestrate
