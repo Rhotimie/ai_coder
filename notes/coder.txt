@@ -20,3 +20,6 @@ context window:
 information in AGENTS.md in sub directories take precedence over AGENTS.md in parent directory
 
 
+AGENTS PRACTISED:
+    - cursor
+    - copilot
