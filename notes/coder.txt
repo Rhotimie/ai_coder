@@ -30,3 +30,7 @@ Evolution of Workflows
     - YOLO
     - Ralph Loops
     - Multi-agent swarms, orchestrate
+
+AGENTS PRACTISED:
+    - cursor
+    - copilot
