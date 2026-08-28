@@ -34,3 +34,20 @@ Evolution of Workflows
 AGENTS PRACTISED:
     - cursor
     - copilot
+
+Practical rules of thumb:
+    Favor intelligence over speed
+    Pick the most intelligent model your budget allows
+    With smaller models, allow for greater prompting and oversight
+    Avoid YOLO with fast frontier or open-source, because there tends to be oversight
+
+For Success: Be The Boss
+    - Invest in AGENTS.md
+        - Concisely: spec, style, success
+    - Start SIMPLE
+    - Work incrementally; test constantly; validate success criteria
+    - Don’t get lazy - challenge & demand evidence
+    - Handle frustration with style
+        - when the llm is consistently drifting away, tell to a a performance report
+        - highlight all the weakness and strengths, flaws
+
