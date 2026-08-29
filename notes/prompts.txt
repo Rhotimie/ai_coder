@@ -12,3 +12,13 @@ samples. End with 5 suggestions for ways that the code could be improved based o
 
 please do a comprehensive code review of this project and write the results to review.md including 
 any remedial actions needed. Don't actually change any code. 
+
+project_management
+    - please review AGENTS.md and the PLAN, and let me know if you have any questions before we start do not do any work yet
+    - assert minimum 80% test coverage if it's sensible to do so, avoid adding unnecessary test just to hit
+        80%. focus on valuable test, not hitting 80% is ok
+    - add integration testing
+    - create AGENTS.md for frontend folder
+    - confirm that the PLAN.md is up to date with all the latest, including ant design decisions that you made
+        let me know when you are ready
+    - add deploy process to PLAN.md
