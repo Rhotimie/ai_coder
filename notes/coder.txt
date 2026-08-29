@@ -31,7 +31,10 @@ Evolution of Workflows
     -- Vibe Engineering
         - YOLO
             - use top frontier models for this, for great results
+            - claude --dangerously-skip-permissions
+            - ralph-loop:ralph-loop {prompt} --max-iterations 10
         - Ralph Loops
+            - /plugin install ralph-loop@claude-plugins-official
         - Multi-agent swarms, orchestrate
 
 AGENTS PRACTISED:
@@ -60,7 +63,53 @@ ANTHROPIC
     - openclaw
 
 CLAUDE:
+    - claude
+    - rename {name}
+        - rename session
+        - claude --resume "learning"
+        - claude resume
+    - / 
+        - see all commands at a glance
+    - /model
     - /init
         set up yourself for this project, creates CLAUDE.md, etc
     - /context 
+    - /compact
+        - /clear : if you are cool to clear the conversation history
+    - /stats
+    - /security-review
+    - /status
+        - /config
+        - /usage
+        - /stats
+    - /help
+    - SHIFT + TAB 
+        - toggle plan / edit mode
+    - CTRL + O 
+        - show all hidden actions/information/details while executing task
+    - /permissions 
+        - add / remove rules
+    - /rewind
 
+    OTHER MODEL:
+        - export $(cat .env)
+        - set default haiku, opus and sonnet models to another platform models
+        - set base_url, auth_token and api_key, 
+        - claude --model gemma
+
+    WORKFLOWS:
+        - session
+            - keep using existing conversation history
+        - checkpoint 
+            - rewind to previous prompt in past
+            - /rewind
+
+
+OPENCODE 
+    - opencode
+    - /models 
+    - /connect
+    - /provider
+
+AMPCODE 
+    - amp

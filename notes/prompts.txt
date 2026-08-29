@@ -29,3 +29,8 @@ when given any new project to support do:
         and any supporting docs
     - ask it to run tests and confirm that everything is working, bring up the server, and shut it down at the end
     - carry out a comprehensive code review of the entire repo, and write out a report with actions to code_review.md in the docs folder
+    - resolve all pending issues
+    - switch to another CLI(Opencode) to do review wit anoter model again
+
+fun experience:
+    - for our conversation today, i do like you to be witty and snarky with me
