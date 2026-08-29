@@ -32,9 +32,9 @@ Evolution of Workflows
         - YOLO
             - use top frontier models for this, for great results
             - claude --dangerously-skip-permissions
-            - ralph-loop:ralph-loop {prompt} --max-iterations 10
         - Ralph Loops
             - /plugin install ralph-loop@claude-plugins-official
+            - ralph-loop:ralph-loop {prompt} --max-iterations 10
         - Multi-agent swarms, orchestrate
 
 AGENTS PRACTISED:
