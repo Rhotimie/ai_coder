@@ -23,14 +23,16 @@ information in AGENTS.md in sub directories take precedence over AGENTS.md in pa
     - More agents
 
 Evolution of Workflows
-    - Micro-manage, Approve, Frequent resets
-    - Plan, Execute, Review,Test
-    - SDD; Trust but verify
+    -- Vibe coding
+        - Micro-manage, Approve, Frequent resets
+        - Plan, Execute, Review,Test
+        - SDD; Trust but verify
     ========================================
-    - YOLO
-        - use top frontier models for this, for great results
-    - Ralph Loops
-    - Multi-agent swarms, orchestrate
+    -- Vibe Engineering
+        - YOLO
+            - use top frontier models for this, for great results
+        - Ralph Loops
+        - Multi-agent swarms, orchestrate
 
 AGENTS PRACTISED:
     - cursor
@@ -49,6 +51,16 @@ For Success: Be The Boss
     - Work incrementally; test constantly; validate success criteria
     - Don’t get lazy - challenge & demand evidence
     - Handle frustration with style
-        - when the llm is consistently drifting away, tell to a a performance report
+        - when the llm is consistently drifting away, tell to write a performance report
         - highlight all the weakness and strengths, flaws
+
+ANTHROPIC 
+    - claude code
+    - cowork
+    - openclaw
+
+CLAUDE:
+    - /init
+        set up yourself for this project, creates CLAUDE.md, etc
+    - /context 
 

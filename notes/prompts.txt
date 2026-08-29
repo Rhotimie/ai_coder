@@ -22,3 +22,10 @@ project_management
     - confirm that the PLAN.md is up to date with all the latest, including ant design decisions that you made
         let me know when you are ready
     - add deploy process to PLAN.md
+
+when given any new project to support do:
+    - /init
+    - ask it to read all necessary, highlighted and supporting documentations to understand everything that is being built so far 
+        and any supporting docs
+    - ask it to run tests and confirm that everything is working, bring up the server, and shut it down at the end
+    - carry out a comprehensive code review of the entire repo, and write out a report with actions to code_review.md in the docs folder
