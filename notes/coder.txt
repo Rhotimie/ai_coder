@@ -97,6 +97,7 @@ CLAUDE:
     - /permissions 
         - add / remove rules
     - /rewind
+    - /mcp
 
     OTHER MODEL:
         - export $(cat .env)
@@ -126,6 +127,16 @@ CLAUDE:
                 - **https://glama.ai/mcp**
 
                 - verify before use on github, check extensive documentation
+
+            installations: 
+                - claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key {api_key}
+                - claude mcp add massive -e MASSIVE_API_KEY={MASSIVE_API_KEY} -- uvx --from git+https://github.com/massive-com/mcp_massive@v0.10.0 --with "mcp<2" mcp_massive
+
+                - claude mcp list
+
+                - claude mcp remove context7
+                - claude mcp remove massive
+
         - Skills: Add expertise & capabilities
             - Skills is simpler and more context efficient and might replace MCP
             - Introduced after MCP; primarily focused on instructions as Markdown files rather than Tools
