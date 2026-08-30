@@ -123,6 +123,8 @@ CLAUDE:
 
     - WAYS TO ENHANCE CLAUDE ABILITIES
         - MCP: Connect Claude Code to someone else’s tools
+            - Massive ecosystem, Highly flexible, Mature marketplaces
+
             - Easy way to use Tools written by someone else
             - Easy way to connect LLMs with Tools
             - It’s the interface, not the tools themselves
@@ -147,6 +149,8 @@ CLAUDE:
                 - claude mcp remove massive
 
         - Skills: Add expertise & capabilities
+            - Context efficiency, Simple setup, Strong results
+
             - Skills are implemented with a “File System Architecture”
             - Skills is simpler and more context efficient and might replace MCP
             - Introduced after MCP; primarily focused on instructions as Markdown files rather than Tools
@@ -191,6 +195,18 @@ CLAUDE:
 
 
         - Plugins: Convenient bundle of MCP, Skills and more  
+            - Best of both, Simplest setup, Explicit instructions
+            - The highest level construct. A bundle of features that can include MCP Servers, Skills, Commands, along with 
+                other Claude Code features not yet covered.
+            - The most simple
+            - Best trade-offs of context and capability
+            - Commands are explicitly triggered
+            - Only available in Claude Code
+            - Least configuration
+            - May give more functionality than needed
+
+
+
 
         - all of the above can be summarized as tool capabilities
             - The usb-c port for AI applications
