@@ -138,13 +138,35 @@ CLAUDE:
                 - claude mcp remove massive
 
         - Skills: Add expertise & capabilities
+            - Skills are implemented with a “File System Architecture”
             - Skills is simpler and more context efficient and might replace MCP
             - Introduced after MCP; primarily focused on instructions as Markdown files rather than Tools
             - “Progressive disclosure” reduces context overhead
             - Also supports running scripts locally; this provides an interesting alternative type of tools
             - Not as flexible and powerful as Tools
             - Skills feel like the more compelling solution for Claude Code, but this is evolving
+            - they are just a bunch of markdown files and scripts
 
+        -- Skills are implemented with a “File System Architecture”
+
+        -- 3 levels of “Progressive Disclosure
+            -- SKILL.md
+                -- Metadata: Name + description: When should this skill be triggered?
+                -- Instructions: Information with workflows, guidance, code snippets
+            -- Other files
+                -- Resources + Code: Info that can be accessed & scripts that can be run
+
+        .claude
+            skills
+                my-great-skill/
+                SKILL.md
+                more_stuff_here_referenced_above.md
+                and_more_stuff.md
+                scripts/
+                    scripts_in_any_language_with_instructions_above.py
+
+        The script itself stays out of context
+        This structure can be in your home directory (all projects) or project directory (project only)
 
 
         - Plugins: Convenient bundle of MCP, Skills and more  
