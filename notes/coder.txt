@@ -1,9 +1,18 @@
 WEBSITES:
-    - https://registry.modelcontextprotocol.io/
-        - official mcp website
-    - https://github.com/modelcontextprotocol/servers
-    - **https://mcp.so/**
-    - **https://glama.ai/mcp**
+    MCP:
+        - https://registry.modelcontextprotocol.io/
+            - official mcp website
+        - https://github.com/modelcontextprotocol/servers
+        - **https://mcp.so/**
+        - **https://glama.ai/mcp**
+
+        - verify before use on github, check extensive documentation
+    SKILLS:
+        - https://github.com/anthropics/skills
+            - https://github.com/anthropics/skills/tree/main/skills
+        - https://www.skills.sh/
+            - made by vercell
+            - has agent-browser skills
 
 ralph loops with claude code 
     - zero shot
@@ -146,6 +155,18 @@ CLAUDE:
             - Not as flexible and powerful as Tools
             - Skills feel like the more compelling solution for Claude Code, but this is evolving
             - they are just a bunch of markdown files and scripts
+
+            -references:
+                - https://github.com/anthropics/skills
+                    - https://github.com/anthropics/skills/tree/main/skills
+                - https://www.skills.sh/
+                    - made by vercell
+                    - has agent-browser skills
+
+            - installation
+                - npm install -g agent-browser
+                - agent-browser install
+                - npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser
 
         -- Skills are implemented with a “File System Architecture”
 
