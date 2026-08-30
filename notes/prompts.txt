@@ -40,3 +40,6 @@ please create a boilerplate .gitignore for this new project, for typical python 
 /feature-dev:feature-dev please implement jira issue PL-3 with a NextJS application in a directory called frontend
     - put all sub-agents / agents to use; code-explorer, code-architect, code-reviewer, etc
 
+compaction:
+    Please add concise details to the end of CLAUDE.md with an update on what has been implemented, and change anything that's no longer accurate in CLAUDE.md
+    

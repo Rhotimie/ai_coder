@@ -229,7 +229,7 @@ CLAUDE:
         - all of the above can be summarized as tool capabilities
             - The usb-c port for AI applications
 
-
+        - READ JIRA ISSUE(ATLASSIAN MCP SERVER) --> IMPLEMENT VIA FEATURE-DEV PLUGIN --> CREATE PR(GITHUB MCP SERVER)
 
 
 OPENCODE 
