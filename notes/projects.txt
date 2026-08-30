@@ -2,6 +2,7 @@
     -- projects/project_management/docs/PLAN.md
     -- projects/project_management/AGENTS.md
 
-
-
+- prelegal
+    -- A platform for drafting common legal agreements.
+    -- This is the result of me (Ed) running the Jira tickets through Claude Code. But you should do this yourself!
 
