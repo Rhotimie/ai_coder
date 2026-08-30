@@ -223,6 +223,7 @@ CLAUDE:
                         -- ralph-loop
                         -- vercel
                 - /plugin install ralph-loop@claude-plugins-official
+                - /plugin install superpowers@claude-plugins-official
 
 
         - all of the above can be summarized as tool capabilities
@@ -251,3 +252,6 @@ DEBUGGING STRATEGY
         4. fix and prove
         5. Leassons learned in CLAUDE.md 
     - use different coding agent to resolve bugs, worst case scenario
+    - skill:
+        - https://github.com/obra/superpowers/tree/main/skills/systematic-debugging
+        - /plugin install superpowers@claude-plugins-official
