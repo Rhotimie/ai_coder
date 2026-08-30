@@ -121,7 +121,8 @@ CLAUDE:
             - rewind to previous prompt in past
             - /rewind
 
-    - WAYS TO ENHANCE CLAUDE ABILITIES
+    - WAYS TO ENHANCE CLAUDE ABILITIES(always explore skills first before other options)
+
         - MCP: Connect Claude Code to someone else’s tools
             - Massive ecosystem, Highly flexible, Mature marketplaces
 
@@ -172,26 +173,26 @@ CLAUDE:
                 - agent-browser install
                 - npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser
 
-        -- Skills are implemented with a “File System Architecture”
+            -- Skills are implemented with a “File System Architecture”
 
-        -- 3 levels of “Progressive Disclosure
-            -- SKILL.md
-                -- Metadata: Name + description: When should this skill be triggered?
-                -- Instructions: Information with workflows, guidance, code snippets
-            -- Other files
-                -- Resources + Code: Info that can be accessed & scripts that can be run
+                -- 3 levels of “Progressive Disclosure
+                    -- SKILL.md
+                        -- Metadata: Name + description: When should this skill be triggered?
+                        -- Instructions: Information with workflows, guidance, code snippets
+                    -- Other files
+                        -- Resources + Code: Info that can be accessed & scripts that can be run
 
-        .claude
-            skills
-                my-great-skill/
-                SKILL.md
-                more_stuff_here_referenced_above.md
-                and_more_stuff.md
-                scripts/
-                    scripts_in_any_language_with_instructions_above.py
+                .claude
+                    skills
+                        my-great-skill/
+                        SKILL.md
+                        more_stuff_here_referenced_above.md
+                        and_more_stuff.md
+                        scripts/
+                            scripts_in_any_language_with_instructions_above.py
 
-        The script itself stays out of context
-        This structure can be in your home directory (all projects) or project directory (project only)
+                The script itself stays out of context
+                This structure can be in your home directory (all projects) or project directory (project only)
 
 
         - Plugins: Convenient bundle of MCP, Skills and more  
@@ -205,7 +206,11 @@ CLAUDE:
             - Least configuration
             - May give more functionality than needed
 
-
+            - installations:
+                = /plugin
+                    - list all available plugins
+                    - installed code-simplifier, code-review, context7, frontend-design, ralph-loop, vercel
+                - /plugin install ralph-loop@claude-plugins-official
 
 
         - all of the above can be summarized as tool capabilities
