@@ -143,6 +143,8 @@ CLAUDE:
             installations: 
                 - claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key {api_key}
                 - claude mcp add massive -e MASSIVE_API_KEY={MASSIVE_API_KEY} -- uvx --from git+https://github.com/massive-com/mcp_massive@v0.10.0 --with "mcp<2" mcp_massive
+                - claude mcp add --transport http atlassian https://mcp.atlassian.com/v1/mcp
+                - claude mcp add --transport http github https://api.githubcopilot.com/mcp --header "Authorization: Bearer {api_key}"
 
                 - claude mcp list
 
@@ -209,7 +211,17 @@ CLAUDE:
             - installations:
                 = /plugin
                     - list all available plugins
-                    - installed code-simplifier, code-review, context7, frontend-design, ralph-loop, vercel
+                    - installed 
+                        -- feature-dev
+                            - Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review
+                            - has standard 7-step process for feature development
+                            - /feature-dev:feature-dev please implement jira issue PL-3 with a NextJS application in a directory called frontend 
+                        -- code-simplifier
+                        -- code-review
+                        -- context7
+                        -- frontend-design
+                        -- ralph-loop
+                        -- vercel
                 - /plugin install ralph-loop@claude-plugins-official
 
 
@@ -227,3 +239,15 @@ OPENCODE
 
 AMPCODE 
     - amp
+
+
+DEBUGGING STRATEGY 
+    - Always commit before add new features
+    - paste the trace, let it figure it out, follow this steps @DEBUG.md 
+    - Guide with DEBUG.md 
+        1. reproduce consistently
+        2. investigate, hypothesis, sanity check and document in DEBUG.md 
+        3. demonstrate root cause
+        4. fix and prove
+        5. Leassons learned in CLAUDE.md 
+    - use different coding agent to resolve bugs, worst case scenario

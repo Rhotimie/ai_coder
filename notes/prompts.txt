@@ -34,3 +34,9 @@ when given any new project to support do:
 
 fun experience:
     - for our conversation today, i do like you to be witty and snarky with me
+
+please create a boilerplate .gitignore for this new project, for typical python fastapi nextjs webapp development, and then commit and push to github 
+
+/feature-dev:feature-dev please implement jira issue PL-3 with a NextJS application in a directory called frontend
+    - put all sub-agents / agents to use; code-explorer, code-architect, code-reviewer, etc
+
