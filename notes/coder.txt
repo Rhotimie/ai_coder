@@ -51,6 +51,36 @@ Evolution of Workflows
         - Ralph Loops
             - /plugin install ralph-loop@claude-plugins-official
             - ralph-loop:ralph-loop {prompt} --max-iterations 10
+            - /ralph-loop "<prompt>" --max-iterations <n> --completion-promise "<text>"
+                - /ralph-loop "Build a REST API for todos. Requirements: CRUD operations, input validation, tests. Output <promise>COMPLETE</promise> when done." --completion-promise "COMPLETE" --max-iterations 50
+                - /ralph-loop "Your task description" --completion-promise "DONE",          # You run ONCE
+                
+            - Prompt Writing Best Practices
+                1. Clear Completion Criteria
+                ❌ Bad: "Build a todo API and make it good."
+
+                ✅ Good:
+                    Build a REST API for todos.
+
+                        When complete:
+                        - All CRUD endpoints working
+                        - Input validation in place
+                        - Tests passing (coverage > 80%)
+                        - README with API docs
+                        - Output: <promise>COMPLETE</promise>
+
+            -3. Self-Correction
+                ❌ Bad: "Write code for feature X."
+
+                ✅ Good:
+                Implement feature X following TDD:
+                1. Write failing tests
+                2. Implement feature
+                3. Run tests
+                4. If any fail, debug and fix
+                5. Refactor if needed
+                6. Repeat until all green
+                7. Output: <promise>COMPLETE</promise>
         - Multi-agent swarms, orchestrate
 
 AGENTS PRACTISED:
@@ -255,3 +285,16 @@ DEBUGGING STRATEGY
     - skill:
         - https://github.com/obra/superpowers/tree/main/skills/systematic-debugging
         - /plugin install superpowers@claude-plugins-official
+
+SETTING UP UV 
+    - uv init --bare
+    - uv python pin 3.12
+    - uv add python-dotenv requests claude-agent-sdk
+
+checkout openai whispr: speech-to-text
+
+CLAUDE AGENT TEAMS
+    - https://code.claude.com/docs/en/agent-teams
+    - video 85
+GSD 
+    - https://github.com/gsd-build/get-shit-done
