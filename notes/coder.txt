@@ -48,6 +48,7 @@ Evolution of Workflows
         - YOLO
             - use top frontier models for this, for great results
             - claude --dangerously-skip-permissions
+                - /ralph-loop:ralph-loop note.txt --max-iterations 3 --completion-promise when we have 100% clone of the website
         - Ralph Loops
             - /plugin install ralph-loop@claude-plugins-official
             - ralph-loop:ralph-loop {prompt} --max-iterations 10
@@ -181,6 +182,24 @@ CLAUDE:
                 - claude mcp remove context7
                 - claude mcp remove massive
 
+        - commands(similar to skills - slash commands): defining markdown to include set of instruction that aligns with developer's routine
+            - review codes
+            - add feature
+            - feature testing
+        - Hook: an event triggering something that you want, could be a python, shell script
+            - verify library version
+            - send you notification if claude code ever need your permission to proceed and you are not on screen
+            - hook to always use uv run instead of pythoon
+            - type check when claude finishes its work
+            - review code at the end of a work
+            - ralph loop most likely us this under the wood
+            - use another coding agent like codex to review code since the last commit
+            - /hooks
+        - Agents: used for creating sub agents
+            - code reviewer
+            - spec review
+            - this however different from agent teams which instead work in collaboration to solve a given problem and they 
+                can interract with one another
         - Skills: Add expertise & capabilities
             - Context efficiency, Simple setup, Strong results
 
